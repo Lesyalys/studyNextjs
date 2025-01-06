@@ -98,9 +98,7 @@ export default function Home() {
     //   </footer>
     // </div >
     <div className="grid grid-rows-[80px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1>
-        My home page
-      </h1>
+      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F785E1&center=true&vCenter=true&repeat=false&width=435&lines=My+study+project+nodeJs" alt="Typing SVG" /></a>
       <Image
           className="dark:invert"
           src="/next.svg"
