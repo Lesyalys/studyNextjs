@@ -10,7 +10,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #cd97d8;
+    --foreground: #dae1ee;
   }
 }
 
@@ -39,10 +39,8 @@ flex-grow: 0;
 
 
 }
-#headerInTable{
-  /* Background */
 
-position: absolute;
+.headerInTable{
 height: 30px;
 left: 0px;
 right: 0px;
@@ -51,3 +49,44 @@ top: 5px;
 background: #0066CC;
 
 }
+
+.elemntInTable{
+/* Background+HorizontalBorder */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 0px 1px 4px;
+gap: 9.9px;
+background-color: #666666;
+height: 32px;
+left: 0%;
+right: 0.6%;
+top: calc(50% - 32px/2 - 131.5px);
+
+
+  
+  }
+
+#textInTable{
+    /* Рейс */
+gap: 100px;
+width: 27.68px;
+height: 15px;
+left: 30px;
+top: calc(50% - 15px/2 - 179.06px);
+
+/* nv-aero.ru/Inter/Bold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+
+  }
