@@ -98,15 +98,22 @@ export default function Home() {
     //   </footer>
     // </div >
     <div className="grid grid-rows-[80px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F785E1&center=true&vCenter=true&repeat=false&width=435&lines=My+study+project+nodeJs" alt="Typing SVG" /></a>
+      <a href="https://git.io/typing-svg" target="blanc"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F785E1&center=true&vCenter=true&repeat=false&width=435&lines=My+study+project+nodeJs" alt="My study project nodeJs" /></a>
       <Image
-          className="dark:invert"
-          src="/next.svg"
+
+          src="/logoAF.png"
           alt="Next.js logo"
-          width={180}
-          height={38}
+          width={35}
+          height={35}
           priority
+          
         />
+        <div id="backTamle">
+          <p id="headerInTable">ПРИЛЕТ</p>
+
+        </div>
       </div>
+      
   );
 }
+

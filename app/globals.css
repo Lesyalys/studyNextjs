@@ -19,3 +19,35 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#backTamle{
+  /* Background+Shadow */
+
+width: 1000px;
+max-width: 1000px;
+height: 445px;
+
+/* nv-aero.ru/Mine Shaft */
+background: #333333;
+box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.38);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+#headerInTable{
+  /* Background */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 5px;
+
+background: #0066CC;
+
+}
