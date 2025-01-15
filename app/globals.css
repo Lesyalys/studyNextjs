@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #dae1ee;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgArrival {
+  float:left;
+  transform:rotate(180deg)
+}
+
+#backTamle{
+  /* Background+Shadow */
+
+width: 1000px;
+max-width: 1000px;
+height: 489px;
+
+border-radius: 10px;
+/* nv-aero.ru/Mine Shaft */
+background: #2b2b2b;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+.headerInTable{
+gap: 10px;
+display: flex;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 5px;
+border-radius: 10px;
+background:linear-gradient(#9ccdff,#2692ff);
+
+font-size: 20px;
+font-weight: 700;
+
+}
+
+
+#textInTable{
+    /* Рейс */
+gap: 120px;
+padding: 1px 0px 1px 4px;
+width: 27.68px;
+height: 50px;
+left: 30px;
+top: calc(50% - 15px/2 - 179.06px);
+
+/* nv-aero.ru/Inter/Bold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+
+  }
+
+.elemntInTable{
+    /* Background+HorizontalBorder */
+    gap: 120px;
+    box-sizing: border-box;
+    display: flex;
+    /* Auto layout */
+    flex-direction: row;
+    padding: 2px 0px 1px 10px;
+
+    background-color: #2692ff4d;
+    height: 38px;
+    left: 0%;
+    right: 0.6%;
+    top: calc(50% - 32px/2 - 131.5px);
+    color:rgb(221, 221, 221);
+
+    font-size: 20px;
+    border-radius: 10px;
+    
+      
+    }
